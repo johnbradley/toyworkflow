@@ -1,0 +1,5 @@
+dds_agent_key: YOUR_AGENT_KEY
+dds_user_key: YOUR_USER_KEY
+projectName: dizzycat
+input_files: [hey.txt, hey2.txt]
+output_file: results.txt

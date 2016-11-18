@@ -1,0 +1,2 @@
+cwlref-runner==1.0
+DukeDSClient==0.2.14
