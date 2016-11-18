@@ -15,5 +15,12 @@ pip install -r requirements.txt
 cwl-runner mycat-workflow.cwl mycat-workflow.yml 
 ```
 
-
+This uses the yml file as configuration:
+```
+dds_agent_key: <your DukeDS agent key>
+dds_user_key: <your DukeDS user key>
+projectName: <name of DukeDS project>
+input_files: [<a file in the project>, <another file in the project>]
+output_file: <name of the output file to upload into the project>
+``
 
