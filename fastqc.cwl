@@ -10,23 +10,23 @@ requirements:
   - class: InlineJavascriptRequirement
 
 inputs:
-  - id: "#input_fastq_file"
+  input_fastq_file:
     type: File
     inputBinding:
       position: 4
-  - id: "#noextract"
+  noextract:
     type: boolean
     default: true
     inputBinding:
       prefix: "--noextract"
       position: 2
-  - id: "#format"
+  format:
     type: string
     default: "fastq"
     inputBinding:
       position: 3
       prefix: "--format"
-  - id: "#threads"
+  threads:
     type: int
     default: 1
     inputBinding:
@@ -35,7 +35,7 @@ inputs:
 
 
 outputs:
-  - id: "#output_qc_report_file"
+  output_qc_report_file:
     type: File
     outputBinding:
       glob: $(inputs.input_fastq_file.path.replace(/^.*[\\\/]/, "").replace(/\.[^/.]+$/, '') + "_fastqc.zip")

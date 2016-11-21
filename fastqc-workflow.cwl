@@ -15,7 +15,7 @@ outputs: []
 
 steps:
   download:
-    run: dds_download.cwl
+    run: dds_download_one.cwl
     in:
       dds_agent_key: dds_agent_key
       dds_user_key: dds_user_key
@@ -30,7 +30,7 @@ steps:
     out: [output_qc_report_file]
 
   upload:
-    run: dds_upload.cwl
+    run: dds_upload_one.cwl
     in:
       dds_agent_key: dds_agent_key
       dds_user_key: dds_user_key
