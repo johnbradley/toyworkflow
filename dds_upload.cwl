@@ -26,4 +26,9 @@ inputs:
       items: File
     inputBinding:
       position: 2
+ file:
+    type: ["null", string]
+    inputBinding:
+      position: 3
+      prefix: --include
 outputs: []
