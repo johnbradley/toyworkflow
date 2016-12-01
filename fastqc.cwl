@@ -42,7 +42,7 @@ outputs:
 
 baseCommand: fastqc
 arguments:
-  - valueFrom: $(runtime.tmpdir)
+  - valueFrom: $('/tmp')
     prefix: "--dir"
     position: 5
   - valueFrom: $(runtime.outdir)
