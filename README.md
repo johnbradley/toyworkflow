@@ -24,4 +24,3 @@ input_files: [<a file in the project>, <another file in the project>]
 output_file: <name of the output file to upload into the project>
 ``
 
-test
