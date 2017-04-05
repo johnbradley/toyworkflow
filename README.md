@@ -1,4 +1,4 @@
-# Toyworkflow
+# toyworkflow
 Toy CWL workflow
 * Downloads two files from a duke-data-service repo
 * cats them together
