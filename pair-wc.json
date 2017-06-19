@@ -1,0 +1,14 @@
+{
+  "read_pairs": [
+    [
+      {
+        "class": "File",
+        "path": "pair-wc.cwl"
+      },
+      {
+        "class": "File",
+        "path": "pair-wc.json"
+      }
+    ]
+  ]
+}
