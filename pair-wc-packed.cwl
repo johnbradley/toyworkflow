@@ -3,6 +3,8 @@
     "class": "CommandLineTool", 
     "baseCommand": "wc", 
     "stdout": "output.txt", 
+    "label": "wc pairs of files", 
+    "doc": "wc pairs", 
     "inputs": [
         {
             "type": {
