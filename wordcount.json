@@ -1,0 +1,6 @@
+{
+  "somefile": {
+     "class": "File",
+     "path": "data.txt"
+  }
+}
