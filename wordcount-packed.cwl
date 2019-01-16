@@ -4,7 +4,11 @@
     "requirements": [
         {
             "class": "InlineJavascriptRequirement"
-        }
+        },
+        {
+                    "class": "DockerRequirement",
+                    "dockerPull": "bash:4.4"
+        }        
     ], 
     "stdout": "output.txt", 
     "label": "wc pairs of files", 
