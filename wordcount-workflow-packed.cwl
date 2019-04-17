@@ -2,6 +2,7 @@
     "$graph": [
         {
             "class": "Workflow",
+            "doc": "word count",
             "inputs": [
                 {
                     "type": "File",
