@@ -1,6 +1,6 @@
 cwlVersion: v1.0
 class: Workflow
-
+doc: word count
 inputs:
   somefile: File
 
